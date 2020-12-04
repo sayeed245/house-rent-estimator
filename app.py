@@ -84,14 +84,14 @@ def main():
 
     st.sidebar.header("About")
     st.sidebar.text("Created by: Sayeed Mohammad")
-    st.sidebar.header("Connect/Follow")
+    #st.sidebar.header("Connect/Follow")
 
-    if st.sidebar.button('LinkedIn'):
-        webbrowser.open_new_tab('https://www.linkedin.com/in/sayeed-mohammad-83b691108/')
-    if st.sidebar.button('Twitter'):
-        webbrowser.open_new_tab('https://twitter.com/6SAYEED')
-    if st.sidebar.button('Tableau Public'):
-        webbrowser.open_new_tab('https://public.tableau.com/profile/sayeed.mohammad#!/')
+    #if st.sidebar.button('LinkedIn'):
+        #webbrowser.open_new_tab('https://www.linkedin.com/in/sayeed-mohammad-83b691108/')
+    #if st.sidebar.button('Twitter'):
+        #webbrowser.open_new_tab('https://twitter.com/6SAYEED')
+    #if st.sidebar.button('Tableau Public'):
+        #webbrowser.open_new_tab('https://public.tableau.com/profile/sayeed.mohammad#!/')
 
 
 if __name__=='__main__':
