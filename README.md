@@ -1,12 +1,11 @@
 # City House Rent Estimator
 ## Table of Content
+  * [Demo](#demo)
   * [Motivation](#motivation)
   * [Overview](#overview)
   * [Data](#data)
   * [Technical Aspect](#technical-aspect)
-  * [Installation](#installation)
   * [Feature Request](#feature-request)
-  * [Credits](#credits)
   * [Connect](#connect)
 ## Demo
 Link: [https://house-rent-estimate-app.herokuapp.com/](https://house-rent-estimate-app.herokuapp.com/)
@@ -33,16 +32,10 @@ The next decision to make was to choose the cities to replace the five Brazilian
 [Setup](https://github.com/sayeed245/house-rent-estimator/blob/main/setup.sh)
     
    - Deployed the app in Heroku
-
-## Installation
-The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-```bash
-pip install -r requirements.txt
-```
+   
 ## Feature Request
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/sayeed245/Fraud-Detection/issues/new) by including your search query and the expected result.
-## Credits
-**Kaggle** for providing [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) dataset
+
 ## Connect
 #### LinkedIn: [https://www.linkedin.com/in/sayeed-mohammad-83b691108/](https://www.linkedin.com/in/sayeed-mohammad-83b691108/)
 #### Twitter: [https://twitter.com/6SAYEED](https://twitter.com/6SAYEED)
