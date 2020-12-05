@@ -15,6 +15,7 @@
   * [Connect](#connect)
 ## Demo
 Link: [https://house-rent-estimate-app.herokuapp.com/](https://house-rent-estimate-app.herokuapp.com/)
+[![](https://github.com/sayeed245/house-rent-estimator/blob/main/house%20rent%20estimator.png)](https://house-rent-estimate-app.herokuapp.com/)
 ## Motivation
 After completing 3 machine learning projects, I wanted to do an end to end project to really understand the ML workflow outside the professional setup by myself. I wanted to make a project which would be relevant to our use.  Keeping in mind all the articles that I have read since I started to learn ML and my initial web research, I decided to create a House Rent Estimator app. 
 ## Overview
