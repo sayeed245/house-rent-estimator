@@ -1,8 +1,3 @@
-# house-rent-estimator
-
-# https://house-rent-estimate-app.herokuapp.com/
-
-
 # City House Rent Estimator
 ## Table of Content
   * [Motivation](#motivation)
@@ -26,13 +21,19 @@ The challenge in converting the dataset to an Indian version was to understand t
 The next decision to make was to choose the cities to replace the five Brazilian cities. I naturally went forward to choose the metro cities: Delhi, Mumbai, Kolkata, Chennai and Bangalore. I looked at the rent distributions and made a decision to replace each city. With the data I had, I was really skeptical to keep Mumbai as a city. The rent amounts did not even closely resonate with the real market values. For the time being, I decided to focus on modeling with the data on hand.
 
 ## Technical Aspect
-- [Linear Regression Ensemble](https://github.com/sayeed245/House-Price-Prediction/blob/main/Linear%20Regression%2Censemble%20XGB%2CLASSO(complete%2020-11-2020).ipynb)
-     
-     - Performed outlier elimination and imputed missing values
-     - Applied Box-Cox transformation on skewed features
-     - Generated 81 new features from existing 80 feautres
-     - Achieved RMSLE score of 0.174 using Linear Regression
-     - Achieved 47% decrease in RMSLE using an ensemble of XGBoost and Lasso regression model 
+[Estimator Notebook](https://github.com/sayeed245/house-rent-estimator/blob/main/estimator.ipynb)
+
+   - Performed a simple RandomForestRegressor to predict the rent
+   - Converted the model into pickle form
+
+[App](https://github.com/sayeed245/house-rent-estimator/blob/main/app.py)
+   - Used Streamlit to create app
+   
+[Procfile](https://github.com/sayeed245/house-rent-estimator/blob/main/Procfile)
+[Setup](https://github.com/sayeed245/house-rent-estimator/blob/main/setup.sh)
+    
+   - Deployed the app in Heroku
+
 ## Installation
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
