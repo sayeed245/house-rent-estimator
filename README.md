@@ -5,6 +5,7 @@
   * [Overview](#overview)
   * [Data](#data)
   * [Technical Aspect](#technical-aspect)
+  * [Blog](#blog)
   * [Feature Request](#feature-request)
   * [Connect](#connect)
 ## Demo
@@ -32,6 +33,9 @@ The next decision to make was to choose the cities to replace the five Brazilian
 [Setup](https://github.com/sayeed245/house-rent-estimator/blob/main/setup.sh)
     
    - Deployed the app in Heroku
+
+## Blog
+A detailed blog on how I created this app can be found [here](https://github.com/sayeed245/house-rent-estimator/blob/main/House%20Rent%20Estimator%20blog.pdf).
    
 ## Feature Request
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/sayeed245/Fraud-Detection/issues/new) by including your search query and the expected result.
